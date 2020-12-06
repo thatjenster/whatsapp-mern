@@ -1,9 +1,12 @@
 import Styles from './styles/styles.css'
+import SideBar from './components/SideBar'
+import Chat from './components/Chat'
 
 function App() {
   return (
     <div className="app">
-      <h1>Hello WhatsApp</h1>
+      <SideBar />
+      {/* chat component */}
     </div>
   );
 }

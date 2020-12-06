@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,UAAU;CAC/B",
+    "mappings": "",
     "sources": [
-        "styles.scss"
+        "styles.scss",
+        "sass/_sidebar.scss",
+        "sass/_chat.scss"
     ],
     "names": [],
     "file": "styles.css"
