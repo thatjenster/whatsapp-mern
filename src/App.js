@@ -5,8 +5,10 @@ import Chat from './components/Chat'
 function App() {
   return (
     <div className="app">
-      <SideBar />
-      {/* chat component */}
+      <div className="app__body">
+        <SideBar />
+        <Chat />
+      </div>
     </div>
   );
 }
