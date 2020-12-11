@@ -22,6 +22,13 @@ function Chat() {
                     </IconButton>
                 </div>
             </div>
+            <div className="chat__body">
+                <p>
+                    <span className="chat__timestamp">{new Date().toUTCString()} </span>
+                    MESSAGE: REAL TIME CHAT
+                </p>
+                
+            </div>
         </div>
     )
 }
