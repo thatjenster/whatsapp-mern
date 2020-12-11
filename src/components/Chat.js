@@ -9,19 +9,18 @@ function Chat() {
                 <div className="chat__headerInfo">
                     <h3>ROOM NAME</h3>
                     <p>Last seen at ...</p>
-                    <div className="chat_headerRight">
-                        <IconButton>
-                            <SearchOutlined />
-                        </IconButton>
-                        <IconButton>
-                            <AttachFile />
-                        </IconButton>
-                        <IconButton>
-                            <MoreVert />
-                        </IconButton>
-                    </div>
                 </div>
-
+                <div className="chat_headerRight">
+                    <IconButton>
+                        <SearchOutlined />
+                    </IconButton>
+                    <IconButton>
+                        <AttachFile />
+                    </IconButton>
+                    <IconButton>
+                        <MoreVert />
+                    </IconButton>
+                </div>
             </div>
         </div>
     )
