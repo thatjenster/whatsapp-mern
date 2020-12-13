@@ -1,5 +1,6 @@
+import MicIcon from '@material-ui/icons/Mic';
 const { Avatar, IconButton } = require("@material-ui/core");
-const { AttachFile, SearchOutlined, MoreVert } = require("@material-ui/icons");
+const { AttachFile, SearchOutlined, MoreVert, InsertEmoticon } = require("@material-ui/icons");
 
 function Chat() {
     return (
@@ -33,6 +34,21 @@ function Chat() {
                     <span className="chat__timestamp">{new Date().toUTCString()} </span>
                     MESSAGE: REAL TIME CHAT
                 </p>
+            </div>
+            <div className="chat__footer">
+                <InsertEmoticon />
+                <form>
+                    <input 
+                        placeholder="Type a message"
+                        type="text"
+                    />
+                    <button 
+                        type="submit"
+                    >
+                        Send a Message
+                    </button>
+                </form>
+                <MicIcon />
             </div>
         </div>
     )
